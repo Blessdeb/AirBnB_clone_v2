@@ -6,7 +6,7 @@ from fabric.api import env, run, put, local
 from os.path import exists
 
 # Define your server IPs and user
-env.hosts = ['52.86.208.90', '54.166.135.118']
+env.hosts = ['100.26.168.24', '100.26.216.185']
 env.user = 'ubuntu'
 env.key_filename = '~/.ssh/id_rsa'  # Define your SSH private key here
 
